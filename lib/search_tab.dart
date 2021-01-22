@@ -53,7 +53,9 @@ class _SearchTabState extends State<SearchTab> {
     final results = model.search(_terms);
 
     return DecoratedBox(
-      decoration: BoxDecoration(color: Styles.scaffoldBackground),
+      decoration: BoxDecoration(
+        // color: Styles.scaffoldBackground,
+      ),
       child: SafeArea(
         child: Column(
           children: [

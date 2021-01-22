@@ -42,6 +42,7 @@ class CupertinoStoreHomePage extends StatelessWidget {
           case 0:
             returnValue = CupertinoTabView(builder: (context) {
               return CupertinoPageScaffold(
+                resizeToAvoidBottomInset: false,
                 child: ProductListTab(),
               );
             });
@@ -49,6 +50,7 @@ class CupertinoStoreHomePage extends StatelessWidget {
           case 1:
             returnValue = CupertinoTabView(builder: (context) {
               return CupertinoPageScaffold(
+                resizeToAvoidBottomInset: false,
                 child: SearchTab(),
               );
             });
@@ -56,6 +58,7 @@ class CupertinoStoreHomePage extends StatelessWidget {
           case 2:
             returnValue = CupertinoTabView(builder: (context) {
               return CupertinoPageScaffold(
+                resizeToAvoidBottomInset: false,
                 child: ShoppingCartTab(),
               );
             });
